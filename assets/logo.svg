@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0A3D3C" />
+      <stop offset="100%" stop-color="#185E5C" />
+    </linearGradient>
+    <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DDA7A5" />
+      <stop offset="100%" stop-color="#C58785" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Cradle / Caring Hands -->
+  <path d="M 30 100 C 40 190, 160 190, 170 100 C 140 150, 60 150, 30 100 Z" fill="url(#coralGrad)"/>
+  
+  <!-- Inner Cradle -->
+  <path d="M 50 115 C 60 170, 140 170, 150 115 C 130 145, 70 145, 50 115 Z" fill="url(#coralGrad)" opacity="0.6"/>
+  
+  <!-- Medical Cross -->
+  <rect x="85" y="30" width="30" height="90" rx="10" fill="url(#tealGrad)" />
+  <rect x="55" y="60" width="90" height="30" rx="10" fill="url(#tealGrad)" />
+  
+</svg>
