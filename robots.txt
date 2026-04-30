@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parveenaslamclinic.com/sitemap.xml
